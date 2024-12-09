@@ -1,0 +1,24 @@
+{
+  "name": "spltoken_metadata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "find": "npx tsx find.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Script to upload metadata for Solana SPL tokens",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.19.4",
+    "@metaplex-foundation/mpl-token-metadata": "^3.3.0",
+    "@metaplex-foundation/umi": "^0.9.2",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
+    "@solana/spl-token": "^0.4.9",
+    "@solana/web3.js": "^1.95.8",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "tsx": "^4.19.2"
+  }
+}
